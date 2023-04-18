@@ -239,7 +239,7 @@ div.sticky{
     top: 0px;
     bottom: 0px;
 
-    background-color: rgb(97, 131, 144);
+    background-color: rgb(255, 255, 255);
     position:absolute;
     
     
@@ -251,7 +251,7 @@ div.sticky{
     top: 0px;
     bottom: 0px;
     right: 0;
-    background-color: rgb(97, 131, 144);
+    background-color: rgb(217, 229, 233);
     position: absolute;
    
     
