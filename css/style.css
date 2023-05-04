@@ -325,12 +325,13 @@ position: relative;
 }
 
 
-.myForm{
+form[name="myForm"] {
     padding: 20px;
     border: 1px blanchedalmond solid;
-}
+  }
 
-.myForm, .formGroup{
+
+form[name="myForm"], .formGroup{
     padding-bottom: 10px;
     color: rgb(87, 35, 35);
         font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
@@ -338,11 +339,12 @@ position: relative;
     font-size: 25px;
 }
 
-.myForm label{
+form[name="myForm"] label{
+    padding-bottom: 5px;
     display:block;
 }
 
-.myForm input[type="text"], .myForm textarea, .myForm #email{
+form[name="myForm"] input[type="text"], form[name="myForm"] textarea, form[name="myForm"] #email{
     padding: 8px;
     width: 40%;
 }
