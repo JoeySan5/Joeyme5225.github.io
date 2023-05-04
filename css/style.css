@@ -13,9 +13,8 @@
 }
 
 .mainContents{
-overflow:auto;
-margin: auto;
-margin-bottom: 10px;
+/* overflow:auto; */
+margin: 0 auto;
 width: 100%;
 position: relative;
 
@@ -258,6 +257,20 @@ position: relative;
     margin-left: 33px;
 }
 
+#zoomC{
+    /* Dimensions */
+    width: 450px;
+    height: 300px;
+    
+    margin-left: 100px;
+
+    /* image is background */
+    background: url('../Images/code.png');
+    background-position: center;
+    background-size: 100% 100%;
+    
+}
+
 
 .gradPic{
     width: 50%;
@@ -359,6 +372,9 @@ form[name="myForm"] input[type="text"], form[name="myForm"] textarea, form[name=
     object-position:center center;
 }
 
+.lowerBox{
+    margin-top: 0px;
+}
 #break{
     display: block;
 margin:0;
