@@ -7,60 +7,80 @@
     <title>Let's Work Together</title>
 
     <link rel="stylesheet" type="text/css"
-        href="./style.css">
+        href="../css/style.css">
 </head>
 <body>
 
-    <header class="headerContainer">
-        <h1>Rest assured, I will try my best at every oppurtunity given</h1>
-        
-    </header>
+    <div class="mainContents">
 
-    <div class="mainContainer">
-        <h2>Contact me, let me show you</h2>
+        <div class="leftSideBar">
 
-
-        <form class="myForm">
-            <div class="formGroup">
-                
-                    <label>First Name:</label>
+            <div class="navBox">
+                <a href="./index.html">Home</a> <!--# links to the top of a current page--> 
+                <a href="./about.html">About me</a>
+                <a href="./practice.html">Projects</a>
+                <a href="./skills.html">Experience</a>
+                <a href="#">Let's Talk</a>
             
-                    <input type="text" name ="firstName" placeholder= "Enter first name">
-                    <!-- Many types of input. However, ***name attribute*** is required for server-side programming. It is how a value is grabbed -->
-            
-                
             </div>
-            <div class="formGroup">
-                
-                <label>Last Name:</label>
-        
-                <input type="text" name ="firstName" placeholder= "Enter first name">
-                <!-- Many types of input. However, ***name attribute*** is required for server-side programming. It is how a value is grabbed -->
-        
+
+        </div>
+
+        <div class = "rightSideBar">
+        </div>
+
+        <header class="headerContainer">
+            <h1>Contact me!</h1>
+            <hr id="break">
+        </header>
+
+        <div class="mainContainer">
             
-        </div>
-        <div class="formGroup">
+            <div class = "blurb">
+                <h3>If you are interested in learning more about my experience or want to discuss over releveant oppurtunites, 
+                    or bond over similar experiences, feel free to contact me by filling out the form below 
+                </h3>
+            </div>
 
-            <label>Email</label>
-            <input type="email" name="email" id="email" placeholder="Please enter email"> <!-- Type email allows for a pop up error to show up if a correct email address is not inputted-->
-        </div>
+                <form class="myForm">
+                        <div class="formGroup">
+                            
+                                <label>First Name:</label>
+                        
+                                <input type="text" name ="firstName" placeholder= "Enter first name">
+                                <!-- Many types of input. However, ***name attribute*** is required for server-side programming. It is how a value is grabbed -->
+                        
+                            
+                        </div>
+                    <div class="formGroup">
+                        
+                        <label>Last Name:</label>
+                
+                        <input type="text" name ="firstName" placeholder= "Enter first name">
+                        <!-- Many types of input. However, ***name attribute*** is required for server-side programming. It is how a value is grabbed -->
+                
+                    
+                    </div>
+                    <div class="formGroup">
 
-        <div class ="formGroup">
-            <label>Message</label>
-            <textarea name ="message"></textarea>
-        </div>
+                        <label>Email</label>
+                        <input type="email" name="email" id="email" placeholder="Please enter email"> <!-- Type email allows for a pop up error to show up if a correct email address is not inputted-->
+                    </div>
 
-        <div class="formGroup">
-            <input type="submit" name="submit" class="button" value="Submit">
-        </div>
+                    <div class ="formGroup">
+                        <label>Message</label>
+                        <textarea name ="message"></textarea>
+                    </div>
+
+                    <div class="formGroup">
+                        <input type="submit" name="submit" class="button" value="Submit">
+                    </div>
 
 
-        </form>
-    </div> <!--End of main container-->
+                </form>
+        </div> <!--End of main container-->
 
-    <div>
-        
-    </div>
+    </div> <!-- end of main contents-->
 
 </body>
 </html>

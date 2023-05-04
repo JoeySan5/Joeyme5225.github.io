@@ -13,16 +13,17 @@
 }
 
 .mainContents{
-    
+overflow:auto;
 margin: auto;
 margin-bottom: 10px;
 width: 100%;
 position: relative;
+
 }
 
 .headerContainer{ /*<--- Selector */
     width:76%;
-    background-color: rgb(236, 236, 236);     /*  <-- Everything inside is a rule-set */
+    background-color: rgb(241, 241, 241);     /*  <-- Everything inside is a rule-set */
     margin:0 auto;
     
     
@@ -32,7 +33,99 @@ position: relative;
 }   /* block in total is the decleration block */
 
  /*Everything in total is called a rule-set */
+ .headerContainer  h1{
+    color:rgb(63, 86, 107);
+    font-family: 'Roboto';
+    text-align: center;
+    font-size: 50px;
+    margin: 0 auto;
+    padding-bottom: 50px;
+    padding-top: 30px;
+    
+}
 
+.mainContainer{
+    width:76%;
+
+    margin:0 auto;
+    
+    
+
+    background-color:  rgb(222, 234, 238); 
+    
+
+}
+.mainContainer h2{
+    font-size: 40px;
+    color:rgb(63, 86, 107);
+    font-family: 'Roboto';
+    text-decoration: underline;
+    text-align: center;
+
+    /* Cool font mods:
+
+    text-transform: uppercase;
+    font-style:italic;
+    word-spacing: 1em;
+    letter-spacing: 1em;
+    */
+
+
+}
+
+.mainContainer, .sticky p{
+    
+    color: rgb(0, 0, 0);
+    font-size: 13px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: normal; /* font-weight controls the boldness */
+
+
+    /* ** SAME AS ABOVE ** :
+        font: normal 16px Arial, Helvetica, sans-serif; */
+
+    line-height: 1.3em; /* line-height is the line between text */
+    word-spacing: .1em;
+}
+
+.mainContainer h3{
+    font-size: 20px;
+    color:rgb(80,114,148);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* text-decoration: underline; */
+    text-align: center;
+    line-height: 30px;
+    
+
+}
+.blurb{
+    /* border:1.5px rgb(80, 114, 148) solid;  */
+    padding: 10px;    
+
+}
+.leftSideBar{
+    float: left;
+    width: 12%;
+    top: 0px;
+    bottom: 0px;
+
+    background-color: rgb(241, 241, 241);
+    position:absolute;
+    
+    
+}
+
+.rightSideBar{
+    float: right;
+    width: 12%;
+    top: 0px;
+    bottom: 0px;
+    right: 0;
+    background-color: rgb(241, 241, 241);
+    position: absolute;
+   
+    
+}
 
 
 .button{
@@ -45,22 +138,6 @@ position: relative;
 .clear{
     clear: both;
     /* where a floating div should go */
-}
-
-#break{
-    display: block;
-margin:0;
-}
-
-.headerContainer  h1{
-    color:rgb(63, 86, 107);
-    font-family: 'Roboto';
-    text-align: center;
-    font-size: 50px;
-    margin: 0 auto;
-    padding-bottom: 50px;
-    padding-top: 30px;
-    
 }
 
 
@@ -148,40 +225,7 @@ margin:0;
 
 
 
-.mainContainer{
-    width:76%;
 
-    margin:0 auto;
-    
-    
-
-    background-color:  rgb(222, 234, 238); 
-    
-
-}
-.leftSideBar{
-    float: left;
-    width: 12%;
-    top: 0px;
-    bottom: 0px;
-
-    background-color: rgb(236, 236, 236);
-    position:absolute;
-    
-    
-}
-
-.rightSideBar{
-    float: right;
-    width: 12%;
-    top: 0px;
-    bottom: 0px;
-    right: 0;
-    background-color: rgb(236, 236, 236);
-    position: absolute;
-   
-    
-}
 
 .projectGlimpse{
  /*width: 600px; if you keep width to a px then the website will not be responsive , therefore set it to a percentage */
@@ -191,47 +235,7 @@ margin:0;
  text-align: center;
 }
 
-.mainContainer h2{
-    font-size: 40px;
-    color:rgb(63, 86, 107);
-    font-family: 'Roboto';
-    text-decoration: underline;
-    text-align: center;
 
-    /* Cool font mods:
-
-    text-transform: uppercase;
-    font-style:italic;
-    word-spacing: 1em;
-    letter-spacing: 1em;
-    */
-
-
-}
-
-.mainContainer, .sticky p{
-    
-    color: rgb(0, 0, 0);
-    font-size: 13px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-weight: normal; /* font-weight controls the boldness */
-
-
-    /* ** SAME AS ABOVE ** :
-        font: normal 16px Arial, Helvetica, sans-serif; */
-
-    line-height: 1.3em; /* line-height is the line between text */
-    word-spacing: .1em;
-}
-
-.mainContainer h3{
-    font-size: 20px;
-    color:rgb(80,114,148);
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    text-decoration: underline;
-    text-align: center;
-
-}
 
 
 
@@ -351,5 +355,10 @@ margin:0;
     height: 200px;
     background-image: url('./Images/Dunkin-68.jpeg');
     object-position:center center;
+}
+
+#break{
+    display: block;
+margin:0;
 }
 
