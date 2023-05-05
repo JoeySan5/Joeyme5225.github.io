@@ -60,6 +60,7 @@ position: relative;
     font-family: 'Roboto';
     text-decoration: underline;
     text-align: center;
+    margin-top: 50px;
 
     /* Cool font mods:
 
@@ -280,7 +281,7 @@ position: relative;
     text-align: center;
     
     margin: auto;
-    margin-top: 15px;
+    margin-top: 30px;
 
     box-sizing: border-box;
     
