@@ -1,3 +1,9 @@
+//Recieves the obj (button are sent with this, obj passed in )
+//Then the member value is then extracted 
+function goToFile(path){
+  location.href = path.value;
+};
+
 function goToLink(link){
  
     console.log(link.value);
