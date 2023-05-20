@@ -1,2 +1,2 @@
 # Joeyme5225.github.io
-Portfolio
+Personal Portfolio created as a personal project over the summer of 2022
